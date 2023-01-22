@@ -1,0 +1,185 @@
+/* Navigation */
+
+nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 5rem;
+    position: fixed;
+    top: 0px;
+    background-color: #2d2f31;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+nav ul li .link-container {
+    width: 4rem;
+    text-align: center;
+}
+
+nav ul li .link-container .material-symbols-outlined {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+nav ul li .link-container span {
+    font-size: 0.8rem;
+    display: block;
+    color: #baddf4;
+}
+
+
+/* Header and CTA Buttons */
+
+.jumbotron {
+    height: 49rem;
+    display: flex;
+    flex-flow: column wrap;
+    width: 93%;
+    margin: 7px 0 7px 6.3%;
+    border-radius: 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url('https://lh3.googleusercontent.com/0ZnL2zDiDVmtuWCeKL6K552nCk4idZVPXHeLgoXEXexXng3yBnj18gVbOXP27Rxyp4I0TI0Pu2Lr32Y3m5hvKronFP-muIHVEOBjpAVO35RvfqD07g=w2400');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.jumbotron .icons span {
+    color: #7fcfff;
+    font-size: 3rem;
+}
+
+.jumbotron .headers-cta {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.jumbotron .text h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.jumbotron .text span {
+    font-size: 1.5rem;
+    font-family: 'Work Sans', 'Plus Jakarta Sans';
+    letter-spacing: -1px;
+}
+
+.jumbotron .headers-cta .header-cta,
+.container-cta {
+    width: 32rem;
+    height: 7rem;
+    background-color: #28292a;
+    padding: 0px 20px 20px 20px;
+    text-align: left;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.jumbotron .headers-cta .header-cta:hover,
+.container-cta:hover {
+    background-color: #1b5e84;
+    transition: all 0.2s ease-in-out;
+}
+
+.jumbotron .headers-cta .header-cta h4 {
+    font-size: 1.5rem;
+    line-height: 2.1;
+}
+
+.jumbotron .headers-cta a {
+    text-decoration: none;
+}
+
+
+/* Main page content */
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2rem 0 7px 7%;
+}
+
+main svg {
+    width: 40rem;
+}
+
+main .left-container {
+    width: 50%;
+    height: 100%;
+}
+
+main .right-container {
+    position: sticky;
+    top: 1.2%;
+    right: 0.7%;
+    width: 50%;
+    height: 48.3rem;
+    background-image: url('https://images.pexels.com/photos/1927595/pexels-photo-1927595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    border-radius: 24px;
+}
+
+main .insider-container {
+    height: 44rem;
+    margin: 7rem 2rem;
+}
+
+main h2 {
+    font-size: 3.2rem;
+    margin: 1.8rem auto;
+    width: 100%;
+}
+
+main p {
+    line-height: 1.9;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .insider-container .container-cta {
+    margin-top: 2.8rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .insider-container .container-cta .text {
+    flex: 1;
+    height: 50%;
+}
+
+main .insider-container .container-cta .icon {
+    align-items: start;
+    height: 50%;
+}
+
+main .insider-container .container-cta .icon span {
+    font-size: 2rem;
+}
+
+main .insider-container .container-cta .text h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
