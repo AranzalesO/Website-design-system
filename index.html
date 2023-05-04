@@ -10,6 +10,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./Styles/reset.css">
     <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./Styles/responsive.css">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
@@ -82,25 +83,25 @@
         </div>
 
         <div class="headers-cta">
-            <a href="#">
+            <a href="#colors">
                 <div class="header-cta">
                     <h4>Colors</h4>
                     <span>Learn what is the theory behind the color itself</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="#fonts">
                 <div class="header-cta">
                     <h4>Fonts</h4>
                     <span>Learn about some of the most used fonts in the web</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="#text-styles">
                 <div class="header-cta">
                     <h4>Text Styles</h4>
                     <span>Learn about Headings, Subheadings and paragraphs</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="#buttons">
                 <div class="header-cta">
                     <h4>Buttons</h4>
                     <span>Learn to style buttons for each purpose</span>
@@ -110,90 +111,135 @@
     </header>
 
     <main>
-        <div class="left-container">
-            <div class="insider-container reveal" id="colors">
-                <h2>Colors</h2>
-                <p>A visual perceptual property resulting from the spectrum of light interacting with the photoreceptor cells of the eye. Color categories and physical color specifications are assigned to objects or materials based on their physical properties
-                    such as light absorption, reflection, and emission spectrum.</p>
-                <p>By defining the consequent color specifications, you can try to use these colors in your apps and Websites</p>
-                <a href="#">
-                    <div class="container-cta">
-                        <div class="text">
-                            <h4>Colors</h4>
-                            <span>Click here for visualizing Fonts styles</span>
+        <div class="content-container">
+            <div class="left-container">
+                <div class="insider-container reveal" id="colors">
+                    <h2>Colors</h2>
+                    <p>A visual perceptual property resulting from the spectrum of light interacting with the photoreceptor cells of the eye. Color categories and physical color specifications are assigned to objects or materials based on their physical
+                        properties such as light absorption, reflection, and emission spectrum.</p>
+                    <p>By defining the consequent color specifications, you can try to use these colors in your apps and Websites</p>
+                    <a href="#">
+                        <div class="container-cta">
+                            <div class="text">
+                                <h4>Colors</h4>
+                                <span>Click here for visualizing Fonts styles</span>
+                            </div>
+                            <div class="icon">
+                                <span class="material-symbols-outlined">palette</span>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <span class="material-symbols-outlined">palette</span>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-            <svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
-                <path d="M 10 80 C 40 10, 65 30, 95 80 S 150 150, 980 50" stroke="blue" fill="transparent"/>
-            </svg>
-
-            <div class="insider-container reveal" id="fonts">
-                <h2>Fonts</h2>
-                <p>A visual perceptual property resulting from the spectrum of light interacting with the photoreceptor cells of the eye. Color categories and physical color specifications are assigned to objects or materials based on their physical properties
-                    such as light absorption, reflection, and emission spectrum. By defining the consequent color specifications, you can try to use these colors in your apps and Websites</p>
-                <a href="#">
-                    <div class="container-cta">
-                        <div class="text">
-                            <h4>Colors</h4>
-                            <span>Click here for visualizing Fonts styles</span>
+            <div class="right-container colors"></div>
+            <div class="left-container">
+                <svg class="left-divider" width="190" height="160" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 10 80 C 40 10, 65 30, 95 80 S 150 150, 980 50" stroke="blue" fill="transparent"/>
+                </svg>
+                <div class="insider-container reveal" id="fonts">
+                    <h2>Fonts</h2>
+                    <p>The word font refers to a set of printable or displayable typography or text characters in a specific style and size. Font styles are used in both print and digital text. There are five basic classifications of typefaces: serif, sans
+                        serif, script, monospaced, and display.</p>
+                    <p> As a general rule, serif and sans serif typefaces are used for either body copy or headlines (including titles, logos, etc.), while script and display typefaces are only used for headlines.</p>
+                    <a href="#">
+                        <div class="container-cta">
+                            <div class="text">
+                                <h4>Fonts styles</h4>
+                                <span>Click here for visualizing Fonts styles</span>
+                            </div>
+                            <div class="icon">
+                                <span class="material-symbols-outlined">font_download</span>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <span class="material-symbols-outlined">font_download</span>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-            <svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
-                <path d="M 10 80 C 40 10, 65 30, 95 80 S 150 150, 980 50" stroke="blue" fill="transparent"/>
-            </svg>
-
-            <div class="insider-container reveal" id="text-styles">
-                <h2>Text Styles</h2>
-                <p>A visual perceptual property resulting from the spectrum of light interacting with the photoreceptor cells of the eye. Color categories and physical color specifications are assigned to objects or materials based on their physical properties
-                    such as light absorption, reflection, and emission spectrum. By defining the consequent color specifications, you can try to use these colors in your apps and Websites</p>
-                <a href="#">
-                    <div class="container-cta">
-                        <div class="text">
-                            <h4>Text Styles</h4>
-                            <span>Click here for visualizing Text styles</span>
+            <div class="right-container fonts"></div>
+            <div class="left-container">
+                <svg class="left-divider" width="190" height="160" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 10 80 C 40 10, 65 30, 95 80 S 150 150, 980 50" stroke="blue" fill="transparent"/>
+                </svg>
+                <div class="insider-container reveal" id="text-styles">
+                    <h2>Text Styles</h2>
+                    <p>The Material Design type scale includes a range of contrasting styles that support the needs of your product and its content. The type scale is a combination of thirteen styles that are supported by the type system. It contains reusable
+                        categories of text, each with an intended application and meaning.</p>
+                    <a href="#">
+                        <div class="container-cta">
+                            <div class="text">
+                                <h4>Text Styles</h4>
+                                <span>Click here for visualizing Text styles</span>
+                            </div>
+                            <div class="icon">
+                                <span class="material-symbols-outlined">format_size</span>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <span class="material-symbols-outlined">format_size</span>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-            <svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
-                <path d="M 10 80 C 40 10, 65 30, 95 80 S 150 150, 980 50" stroke="blue" fill="transparent"/>
-            </svg>
-
-            <div class="insider-container reveal" id="buttons">
-                <h2>Buttons</h2>
-                <p>A visual perceptual property resulting from the spectrum of light interacting with the photoreceptor cells of the eye. Color categories and physical color specifications are assigned to objects or materials based on their physical properties
-                    such as light absorption, reflection, and emission spectrum. By defining the consequent color specifications, you can try to use these colors in your apps and Websites</p>
-                <a href="#">
-                    <div class="container-cta">
-                        <div class="text">
-                            <h4>Colors</h4>
-                            <span>Click here for visualizing Buttons styles</span>
+            <div class="right-container text-styles"></div>
+            <div class="left-container">
+                <svg class="left-divider" width="190" height="160" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 10 80 C 40 10, 65 30, 95 80 S 150 150, 980 50" stroke="blue" fill="transparent"/>
+                </svg>
+                <div class="insider-container reveal" id="buttons">
+                    <h2>Buttons</h2>
+                    <p>Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:</p>
+                    <p> -Dialogs </p>
+                    <p> -Modal windows</p>
+                    <p> -Forms</p>
+                    <p> -Cards</p>
+                    <p> -Toolbars</p>
+                    <a href="#">
+                        <div class="container-cta">
+                            <div class="text">
+                                <h4>Buttons</h4>
+                                <span>Click here for visualizing Buttons styles</span>
+                            </div>
+                            <div class="icon">
+                                <span class="material-symbols-outlined">gamepad</span>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <span class="material-symbols-outlined">gamepad</span>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
+            <div class="right-container buttons"></div>
         </div>
-
-        <div class="right-container" id="right">
         </div>
     </main>
-
+    <svg class="footer-divider" width="1450" height="260" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 10 80 C 40 10, 65 30, 95 80 S 150 150, 5980 400" stroke="blue" fill="transparent"/>
+    </svg>
+    <footer>
+        <div class="main-footer">
+            <div class="description">
+                <span class="material-symbols-outlined">brush</span>
+                <p>Material Design is an adaptable system of guidelines, components, and tools that support the best practices of user interface design. Backed by open-source code, Material Design streamlines collaboration between designers and developers,
+                    and helps teams quickly build beautiful products.</p>
+            </div>
+            <div class="links">
+                <div class="social column">
+                    <h6>Social</h6>
+                    <a href="#" target="_blank"><span>GitHub</span></a>
+                    <a href="#" target="_blank"><span>LinkedIn</span></a>
+                    <a href="#" target="_blank"><span>Twitter</span></a>
+                    <a href="#" target="_blank"><span>Instagram</span></a>
+                </div>
+                <div class="libraries column">
+                    <h6>Libraries</h6>
+                    <a href="https://getbootstrap.com/" target="_blank"><span>Boostrap</span></a>
+                    <a href="https://m2.material.io/components/lists" target="_blank"><span>Material Design</span></a>
+                    <a href="https://bulma.io/" target="_blank"><span>Bulma</span></a>
+                    <a href="https://tailwindcss.com/" target="_blank"><span>Instagram</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="legal-footer">
+            <a href="#" class="page-name"><span>Website Design</span></a>
+            <a href="#"><span>Privacy Policy</span></a>
+            <a href="#"><span>Terms of service</span></a>
+            <a href="#"><span>Feedback</span></a>
+        </div>
+    </footer>
     <script src="./DOM/index.js"></script>
 </body>
 

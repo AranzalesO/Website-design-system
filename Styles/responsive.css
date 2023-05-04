@@ -1,0 +1,95 @@
+/* Media Queries */
+
+/* Mobile */
+
+@media (min-width: 320px) and (max-width: 766px) {
+    /* Navigation */
+    nav {
+        display: flex;
+        align-items: flex-end;
+        flex-flow: row nowrap;
+        width: 100%;
+        height: 6rem;
+        bottom: 0px;
+        top: auto;
+        z-index: 999;
+    }
+    
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+
+    nav ul li .link-container {
+        width: auto;
+    }
+
+    /* Header and CTA Buttons */
+    .jumbotron {
+        height: 42rem;
+        margin: 13px 0 30rem 3%;
+    }
+
+    .jumbotron .text h1 {
+        font-size: 3rem;
+    }
+    .jumbotron .text span {
+        font-size: 1.2rem;
+    }
+
+    .jumbotron .headers-cta {
+        position: absolute;
+        margin-top: 76rem;
+    }
+    .jumbotron .headers-cta .header-cta,
+    .container-cta {
+        width: 25rem;
+    }
+    
+
+    /* Main page content */
+    main .left-container {
+        width: 100%;
+    }
+    main .right-container {
+        width: 100%;
+        height: 36.3rem;
+        position: relative;
+        right: 3.7%;
+        margin: -10rem 0 5rem 0;
+    }
+
+    /* Footer dividers and Footer */
+    .footer-divider {
+        width: 100%;
+    }
+
+    .left-divider {
+        width: 90%;
+    }
+
+}
+
+
+/* Tablet */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    
+}
+
+
+/* Laptop */
+
+@media (min-width: 1024px) and (max-width: 1599px) {
+    
+}
+
+
+/* Desktop */
+
+@media (min-width: 1600px) {
+    
+}
+
