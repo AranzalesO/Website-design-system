@@ -14,7 +14,7 @@
         top: auto;
         z-index: 999;
     }
-    
+
     nav ul {
         width: 100%;
         display: flex;
@@ -47,8 +47,12 @@
     .container-cta {
         width: 25rem;
     }
-    
 
+    .main-footer .description, .links {
+        width: 100%;
+    }
+    
+    
     /* Main page content */
     main .left-container {
         width: 100%;
@@ -60,36 +64,121 @@
         right: 3.7%;
         margin: -10rem 0 5rem 0;
     }
+    
+    /* Footer */
+    footer {
+        margin: 0 5rem 9rem 9.3%;
+    }
+    
+    footer .main-footer {
+        margin: 0 0 2.5rem 0;
+    }
 
-    /* Footer dividers and Footer */
-    .footer-divider {
+    footer .main-footer .description, .links {
+        width: 100%;
+        margin: 0.8rem 0;
+    }
+    
+    footer .main-footer .links {
         width: 100%;
     }
-
-    .left-divider {
-        width: 90%;
+    footer .legal-footer a:first-child {
+        display: block;
+        margin-bottom: 0.4rem;
     }
-
+    footer .legal-footer a {
+        margin-right: 1rem;
+    }
+    
+    /* END OF INDEX HTML */
+    
+    /* Colors */
+    .colors-jumbotron {
+        margin: 7px 0 7px 3%;
+    }
+    
+    .colors-container {
+        margin: 7rem 0 56rem 3%;
+    }
+    
+    .colors-container .color-definition {
+        width: 100%;
+    }
+    
 }
 
 
 /* Tablet */
 
 @media (min-width: 767px) and (max-width: 1023px) {
+    /* Navigation */
+    nav {
+        display: flex;
+        align-items: flex-end;
+        flex-flow: row nowrap;
+        width: 100%;
+        height: 6rem;
+        bottom: 0px;
+        top: auto;
+        z-index: 999;
+    }
     
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+    
+    nav ul li .link-container {
+        width: auto;
+    }
+
+    /* COLORS PAGE */
+
+    /* Colors header */
+    .colors-jumbotron {
+        margin: 7px 0 7px 3%;
+    }
+
+    /* Colors boxes */
+    .colors-container {
+        margin: 7rem 0 7rem 3%;
+    }
+    
+    /* Footer */
+    footer .main-footer .description, .links {
+        width: 100%;
+    }
+    footer .main-footer .description {
+        width: 100%;
+    }
+    footer .main-footer .links {
+        width: 100%;
+    }
 }
 
 
 /* Laptop */
 
 @media (min-width: 1024px) and (max-width: 1599px) {
-    
+    footer .main-footer .description {
+        width: 60%;
+    }
+    footer .main-footer .links {
+        width: 40%;
+    }
 }
 
 
 /* Desktop */
 
 @media (min-width: 1600px) {
-    
+    footer .main-footer .description {
+        width: 60%;
+    }
+    footer .main-footer .links {
+        width: 40%;
+    }
 }
 

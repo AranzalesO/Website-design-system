@@ -1,0 +1,234 @@
+/* Navigation */
+
+nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 5rem;
+    position: fixed;
+    top: 0px;
+    background-color: #2d2f31;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+nav ul li .link-container {
+    width: 4rem;
+    text-align: center;
+    padding: 1.1rem 5px;
+    border-radius: 2rem;
+}
+
+nav ul li .link-container:hover {
+    background-color: #28292a;
+}
+
+nav ul li .link-container .material-symbols-outlined {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+nav ul li .link-container span {
+    font-size: 0.8rem;
+    display: block;
+    color: #baddf4;
+}
+
+
+/* FONTS HEADER SECTION */
+
+/* Header */
+.fonts-jumbotron {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 93%;
+    height: 500px;
+    margin: 7px 0 7px 6.3%;
+    padding: 2rem 3rem;
+    background-image: url('https://lh3.googleusercontent.com/ImZgs4eLLuxUc6yUT_dd-SAGkZz9b1QY5ZPN_Ifpe_0EylbWEzo0Q0bHD-5XyQCU5HadrgFSCmNdooLr2ooQMYEB4e2rTF1QVzdb4gay_OH6DAegyQ=w2400-rj');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.fonts-jumbotron h2 {
+    font-size: 5rem;
+}
+
+.fonts-jumbotron p {
+    display: block;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 7rem 9rem 1rem 16rem;
+}
+main ul {
+    width: 100%;
+    height: 8rem;
+    line-height: 2.5;
+    margin-bottom: 5rem;
+}
+main ul li::before {
+    background-image: url('https://m3.material.io/static/assets/list-bullet-dark.svg');
+    content: "";
+    display: inline-block;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    margin-right: 0.7rem;
+    transform: rotate(calc(var(--rotation) * 36deg));
+}
+
+
+main section.use-case .fonts-image{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    margin-bottom: 1.2rem;
+}
+main section.use-case p {
+    margin-left: 1rem;
+    line-height: 1.7;
+}
+
+
+main section.fonts-context .brief-history {
+    margin-bottom: 5rem;
+    line-height: 2.3;
+}
+main section.fonts-context .brief-history h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+main section.font-types h4 {
+    font-size: 2rem;
+    line-height: 1.7;
+    margin-bottom: 5rem;
+}
+main section.font-types .types-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+main section.font-types .types-container .column {
+    width: 30%;
+}
+main section.font-types .types-container .column .list {
+    font-size: 0.94rem;
+}
+main section.font-types .types-container .column h5 {
+    font-size: 1.4rem;
+    margin-bottom: 1.7rem;
+}
+main section.font-types .types-container .column img{
+    width: 100%;
+    border-radius: 20px;
+    height: 40%;
+    margin-top: 3.5rem;
+}
+main section.font-types .types-container .column-one{
+    font-family: 'Source Code Pro', monospace;
+}
+main section.font-types .types-container .column-two{
+    font-family: sans-serif , monospace;
+}
+main section.font-types .types-container .column-three{
+    font-family: 'Poppins', monospace;
+}
+
+/* SVG's dividers */
+
+.footer-divider {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    width: 85%;
+    margin: 2rem 5rem 9rem 9.3%;
+}
+
+footer .main-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 2.5rem 0;
+}
+
+footer .main-footer .links {
+    justify-content: space-evenly;
+    height: 10rem;
+}
+
+footer .main-footer .description {
+    line-height: 1.7;
+}
+
+footer .main-footer .description span {
+    font-size: 2rem;
+}
+
+footer .main-footer .description p {
+    font-weight: lighter;
+}
+
+footer .main-footer .links {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+footer .main-footer .links .column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+footer .main-footer .links .column h6 {
+    font-size: 0.8rem;
+}
+
+footer .main-footer .links .column span {
+    display: block;
+    color: #a6c5f8;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .main-footer .links .column span:hover {
+    color: #fbfdff;
+}
+
+footer .legal-footer a {
+    color: #fff;
+    margin-right: 3rem;
+    font-size: 0.98rem;
+}
+
+footer .legal-footer a:not(.page-name):hover {
+    text-decoration: underline;
+}
+
+footer .legal-footer a:first-child {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}

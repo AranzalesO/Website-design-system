@@ -213,6 +213,14 @@ main .insider-container .container-cta .text h4 {
     margin-bottom: 0.4rem;
 }
 
+/* SVG's dividers */
+.footer-divider {
+    width: 100%;
+}
+
+.left-divider {
+    width: 90%;
+}
 
 /* Footer */
 
