@@ -45,7 +45,7 @@ nav ul li .link-container span {
 /* FONTS HEADER SECTION */
 
 /* Header */
-.fonts-jumbotron {
+.buttons-jumbotron {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -53,17 +53,17 @@ nav ul li .link-container span {
     height: 500px;
     margin: 7px 0 7px 6.3%;
     padding: 2rem 3rem;
-    background-image: url('https://lh3.googleusercontent.com/ImZgs4eLLuxUc6yUT_dd-SAGkZz9b1QY5ZPN_Ifpe_0EylbWEzo0Q0bHD-5XyQCU5HadrgFSCmNdooLr2ooQMYEB4e2rTF1QVzdb4gay_OH6DAegyQ=w2400-rj');
+    background-image: url('https://lh3.googleusercontent.com/EhHSqOHkNmcLEZigJr37o1cA1W9JS--miJxKacOFAQZAYVEH-TtViAtiyGzfyPjmceyCSUp43W84R7liQx4std_QkbOHNTLCQHgjzxIB_LtWMnCd6fM=w2400-rj');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
 
-.fonts-jumbotron h2 {
+.buttons-jumbotron h2 {
     font-size: 5rem;
 }
 
-.fonts-jumbotron p {
+.buttons-jumbotron p {
     display: block;
     font-size: 1.2rem;
     letter-spacing: 1px;
@@ -99,7 +99,7 @@ main ul li::before {
 }
 
 
-main section.use-case .fonts-image{
+main section.use-case .buttons-image{
     width: 100%;
     height: 70%;
     border-radius: 20px;

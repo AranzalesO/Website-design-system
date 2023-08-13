@@ -45,7 +45,7 @@ nav ul li .link-container span {
 /* FONTS HEADER SECTION */
 
 /* Header */
-.fonts-jumbotron {
+.text-jumbotron {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -53,17 +53,17 @@ nav ul li .link-container span {
     height: 500px;
     margin: 7px 0 7px 6.3%;
     padding: 2rem 3rem;
-    background-image: url('https://lh3.googleusercontent.com/ImZgs4eLLuxUc6yUT_dd-SAGkZz9b1QY5ZPN_Ifpe_0EylbWEzo0Q0bHD-5XyQCU5HadrgFSCmNdooLr2ooQMYEB4e2rTF1QVzdb4gay_OH6DAegyQ=w2400-rj');
+    background-image: url('https://lh3.googleusercontent.com/HlbnJmSX9lPKAzw3PIgcWlotRXK1gKby51ni9mjugFHiOuDQSCNKXP6hQWW053Z_SpyIoD-J-XPCCGB03IrdCmC7NkzLQgJgNUXv10BIW99PWRZjtRI=w2400-rj');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
 
-.fonts-jumbotron h2 {
+.text-jumbotron h2 {
     font-size: 5rem;
 }
 
-.fonts-jumbotron p {
+.text-jumbotron p {
     display: block;
     font-size: 1.2rem;
     letter-spacing: 1px;
@@ -99,7 +99,7 @@ main ul li::before {
 }
 
 
-main section.use-case .fonts-image{
+main section.use-case .text-image{
     width: 100%;
     height: 70%;
     border-radius: 20px;
@@ -113,7 +113,7 @@ main .img-description {
 
 
 main section.context .brief-history {
-    margin: 0 0 5rem 0;
+    margin-bottom: 5rem;
     line-height: 2.3;
 }
 main h3 {
@@ -124,51 +124,17 @@ main h3 {
 
 main h4 {
     font-size: 1.7rem;
-    line-height: 1.7;
-}
-
-main section.font-types h4 {
-    margin-bottom: 5rem;
-}
-main section.font-types .types-container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
-}
-main section.font-types .types-container .column .list {
-    font-size: 0.94rem;
-}
-main section.font-types .types-container .column h5 {
-    font-size: 1.4rem;
-    margin-bottom: 1.7rem;
-}
-main section.font-types .types-container .column img{
-    width: 100%;
-    border-radius: 20px;
-    height: 40%;
-    margin-top: 3.5rem;
-}
-main section.font-types .types-container .column-one{
-    font-family: 'Source Code Pro', monospace;
-}
-main section.font-types .types-container .column-two{
-    font-family: sans-serif , monospace;
-}
-main section.font-types .types-container .column-three{
-    font-family: 'Poppins', monospace;
 }
 
 
 main section.text-styles {
-    margin: 4rem 0;
+    margin: 0 0 4rem;
 }
 main section.text-styles h4 {
-    margin: 5rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
 }
 main section.text-styles p {
-    margin: 0rem 0 2rem 0;
+    margin: 0 0 2rem 0;
 }
 main section.text-styles .table-wrapper {
     width: 100%;
@@ -204,35 +170,16 @@ main section.examples .columns-container {
     margin-bottom: 5rem;
 }
 main section.examples .column-two {
-    width: 58%;
+    width: 60%;
 }
 main section.examples .column-one {
     width: 40%;
-    margin: 0 7px 1.2rem 0;
+    margin-bottom: 2rem;
 }
 
 main section.examples .column-two img {
     width: 100%;
     height: auto;
-    border-radius: 25px;
-}
-
-main section.outro-columns .columns-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin-top: 3rem;
-}
-main section.outro-columns .columns-container .column-one, .column-two {
-    width: 47%;
-    margin-bottom: 2rem;
-}
-main section.outro-columns .columns-container .column-three {
-    width: 100%;
-}
-main section.outro-columns .columns-container img {
-    width: 100%;
-    height: 20rem;
     border-radius: 25px;
 }
 
@@ -263,6 +210,7 @@ footer .main-footer .links {
 
 footer .main-footer .description {
     line-height: 1.7;
+    margin-bottom: 2rem;
 }
 
 footer .main-footer .description span {

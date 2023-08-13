@@ -28,7 +28,7 @@
 
     /* Header and CTA Buttons */
     .jumbotron {
-        height: 42rem;
+        height: 40rem;
         margin: 13px 0 30rem 3%;
     }
 
@@ -46,6 +46,9 @@
     .jumbotron .headers-cta .header-cta,
     .container-cta {
         width: 25rem;
+    }
+    main .insider-container .container-cta {
+        height: 8rem;
     }
 
     .main-footer .description, .links {
@@ -92,10 +95,7 @@
     
     /* END OF INDEX HTML */
     
-    /* Colors */
-    .colors-jumbotron {
-        margin: 7px 0 7px 3%;
-    }
+    /* COLORS */
     
     .colors-container {
         margin: 7rem 0 56rem 3%;
@@ -104,7 +104,47 @@
     .colors-container .color-definition {
         width: 100%;
     }
+
+    /* FONTS */
+    main .types-container .column {
+        width: 100%;
+        margin: 0 0 3rem 0;
+    }
+    main h3 {
+        font-size: 2.2rem;
+    }
+    main section.examples .column-two {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    main section.examples .column-one {
+        width: 100%;
+    }
+    main section.outro-columns .columns-container .column-one, .column-two {
+        width: 100%;
+    }
+
     
+    /* TEXT STYLES */
+    main section.use-case {
+        margin: 4rem 0;
+    }
+    
+    /* Pages */
+    #fonts-section, #text-styles-page, #buttons-page {
+        padding: 7rem 4rem 1rem 4rem;
+    }
+    .colors-jumbotron, .fonts-jumbotron, .text-jumbotron, .buttons-jumbotron {
+        margin: 12px 0 7px 3%;
+        height: 38rem;
+    }
+    .colors-jumbotron h2, .fonts-jumbotron h2, .text-jumbotron h2, .buttons-jumbotron h2 {
+        font-size: 3.5rem;
+    }
+    .colors-jumbotron p, .fonts-jumbotron p, .text-jumbotron p, .buttons-jumbotron p {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
 }
 
 
@@ -133,17 +173,44 @@
     nav ul li .link-container {
         width: auto;
     }
+    .jumbotron {
+        height: 50rem;
+        margin: 13px 0 30rem 3%;
+    }
+
+    .jumbotron .text h1 {
+        font-size: 3rem;
+    }
+    .jumbotron .text span {
+        font-size: 1.2rem;
+    }
+
+    .jumbotron .headers-cta {
+        position: absolute;
+        margin-top: 76rem;
+    }
+    .jumbotron .headers-cta .header-cta,
+    .container-cta {
+        width: 25rem;
+    }
 
     /* COLORS PAGE */
 
     /* Colors header */
-    .colors-jumbotron {
+    .colors-jumbotron, .fonts-jumbotron {
         margin: 7px 0 7px 3%;
     }
 
     /* Colors boxes */
     .colors-container {
         margin: 7rem 0 7rem 3%;
+    }
+
+
+    /* FONTS */
+    main section.font-types .types-container .column {
+        width: 48%;
+        margin: 1rem 5px;
     }
     
     /* Footer */
@@ -155,6 +222,11 @@
     }
     footer .main-footer .links {
         width: 100%;
+    }
+
+    /* PAGES */
+    #fonts-section, #text-styles-page {
+        padding: 7rem 4rem 1rem 4rem;
     }
 }
 
@@ -168,6 +240,11 @@
     footer .main-footer .links {
         width: 40%;
     }
+
+    /* FONTS */
+    main section.font-types .types-container .column {
+        width: 30%;
+    }
 }
 
 
@@ -179,6 +256,10 @@
     }
     footer .main-footer .links {
         width: 40%;
+    }
+    /* FONTS */
+    main section.font-types .types-container .column {
+        width: 30%;
     }
 }
 
